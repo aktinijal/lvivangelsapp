@@ -27,27 +27,27 @@
             // $locationProvider.html5Mode(true);
     });
 
-    angelsApp.controller('mainController', function($scope) {
+    myApp.controller('mainController', function($scope) {
 
         $scope.message = 'Everyone come and see how good I look!';
     });
 
-    angelsApp.controller('eventsController', function($scope) {
+    myApp.controller('eventsController', function($scope) {
 
         $scope.message = 'eventsController!';
     });
 
-    angelsApp.controller('federationController', function($scope) {
+    myApp.controller('federationController', function($scope) {
 
         $scope.message = 'federationController!';
     });
 
-    angelsApp.controller('galleryController', function($scope) {
+    myApp.controller('galleryController', function($scope) {
 
         $scope.message = 'galleryController!';
     });
 
-    angelsApp.controller('contactController', function($scope) {
+    myApp.controller('contactController', function($scope) {
 
         $scope.message = 'contactController!';
     });
