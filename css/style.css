@@ -528,55 +528,55 @@ div .photo:hover {}
     background-color: #f65358;
 }
 
-#contact {
+footer {
     width: 100%;
     background-color: #1a1b24;
     color: #888888;
     padding: 40px;
 }
 
-.contact-item {
+.footer-item {
     text-align: center;
 }
 
-.contact-item h2 {
+.footer-item h2 {
     font-size: 20px;
     line-height: 35px;
 }
 
-.contact-item p {
+.footer-item p {
     line-height: 24px;
 }
 
-#contact .form {
+.contact .form {
     text-align: justify;
 }
 
-#contact form {
+.contact form {
     max-width: 100%;
 }
 
-#contact label {
+.contact label {
     font-size: 20px;
     line-height: 35px;
 }
 
-#contact input,
-#contact textarea {
+.contact input,
+.contact textarea {
     margin-bottom: 15px;
     padding-left: 10px;
     width: 100%;
 }
 
-#contact input {
+.contact input {
     height: 40px;
 }
 
-#contact textarea {
+.contact textarea {
     padding-top: 10px;
 }
 
-#contact button {
+.contact button {
     text-decoration: none;
     width: 150px;
     height: 50px;
@@ -588,8 +588,8 @@ div .photo:hover {}
     font-weight: bold;
 }
 
-#contact button:hover,
-#contact button:focus {
+.contact button:hover,
+.contact button:focus {
     text-decoration: none;
     background-color: #fff;
     border: 2px solid #fff;
