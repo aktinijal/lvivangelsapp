@@ -1,0 +1,79 @@
+<html ng-app="angelsApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Lviv Angels</title>
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+        <link type="text/css" rel="stylesheet" href="css/reset.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body ng-controller="mainController">
+
+        <div class="header-contacts">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="number right">+38 (068) 999 16 19</h2>
+                    <h2 class="email left">lviv.angels.ua@gmail.com</h2>
+                </div>
+            </div>
+        </div>
+
+        <header class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="logo left">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <a href="#" id="touch-menu">Меню</a>
+
+                <ul class="site-nav right">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="/#events">Події</a></li>
+                    <li><a href="/#federation">Федерація</a></li>
+                    <li><a href="/#gallery">Фотогалерея</a></li>
+                    <li class="last"><a href="/#contact">Контакти</a></li>
+                </ul>
+            </div>
+        </header>
+
+
+        <!-- HEADER AND NAVBAR -->
+<!-- <header>
+    <nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Angular Routing Example</a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="/#events"><i class="fa fa-home"></i> events</a></li>
+            <li><a href="/#federation"><i class="fa fa-shield"></i> federation</a></li>
+            <li><a href="/#gallery"><i class="fa fa-comment"></i> gallery</a></li>
+            <li><a href="/#contact"><i class="fa fa-comment"></i> Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+</header> -->
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div id="main">
+
+            <div ng-view></div>
+            
+        </div>
+
+    </body>
+    </html>
