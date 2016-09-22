@@ -1,7 +1,12 @@
+.transition {
+    -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+   -moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+     -o-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
 #main {
 	margin-top: 90px;
 }
-
 .wrapper {
     width: 90%;
     margin: 0 auto;
@@ -437,7 +442,7 @@ div .photo:hover {}
 }
 
 .info-open {
-    display: none;
+    /*display: none;*/
     width: 100%;
     padding-top: 20px;
     color: #888888;
@@ -540,12 +545,20 @@ footer {
 }
 
 .footer-item h2 {
+    margin-bottom: 10px;
     font-size: 20px;
     line-height: 35px;
 }
 
-.footer-item p {
+.footer-item a {
+    color: #888888;
+    font-size: 13px;
     line-height: 24px;
+    text-decoration: underline;
+}
+
+.footer-item a:hover {
+    color: #fff;
 }
 
 .contact .form {
