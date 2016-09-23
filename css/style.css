@@ -545,7 +545,6 @@ footer {
 }
 
 .footer-item h2 {
-    margin-bottom: 10px;
     font-size: 16px;
     line-height: 20px;
 }
@@ -553,7 +552,7 @@ footer {
 .footer-item a, .footer-item p {
     color: #888888;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 20px;
     text-decoration: underline;
 }
 .footer-item p {
