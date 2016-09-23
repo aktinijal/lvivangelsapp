@@ -132,3 +132,7 @@ a:hover, a:focus {
     margin-right: 0; 
     margin-left: 0; 
 }
+.n-pad-r-l {
+    padding-right: 0;
+    padding-left: 0;
+}

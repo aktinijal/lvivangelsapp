@@ -151,8 +151,8 @@ header {
 
 .title {
     width: 100%;
-    height: 60px;
-    margin: 20px auto 40px;
+    height: 36px;
+    margin: 20px auto 30px;
     font-size: 36px;
     line-height: 36px;
     text-align: center;
@@ -561,18 +561,55 @@ footer {
 .footer-item a:hover {
     color: #fff;
 }
-
-.map-links a{
+.map-container {    
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.map-links {
+    position: relative;
+    padding: 10px 15px 0 30px;
+}
+.map-links h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.map-links li {
+    position: relative;
+/*    margin-bottom: 5px;*/
+}
+.map-links li:before {
+    content: url(../img/map-list-img.png);
+    position: absolute;
+    top: 3px;
+    left: -23px;
+}
+.map-links a {
     color: #666;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.5px;
-
+    cursor: pointer;
+}
+.map-links a:hover {
+    border-bottom: 1px solid #999;
+}
+.map-links p {
+    margin-bottom: 10px;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 .contact .form {
     text-align: justify;
 }
-
+.form-container {
+    margin-bottom: 30px;
+}
 .contact form {
     max-width: 100%;
 }
@@ -594,26 +631,39 @@ footer {
 }
 
 .contact textarea {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
+.left-form {
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+.right-form {
+    padding: 10px;
+    float: right;
+    width: 50%;
+}
 .contact button {
     text-decoration: none;
-    width: 150px;
-    height: 50px;
+    width: 146px;
+    height: 46px;
     border: none;
     border-radius: 0;
     background-color: #f65358;
     color: #fff;
+    border: 2px solid #f65358;
     font-size: 20px;
     font-weight: bold;
+    float: right;
+
 }
 
 .contact button:hover,
 .contact button:focus {
     text-decoration: none;
     background-color: #fff;
-    border: 2px solid #fff;
+    border: 2px solid #f65358;
     color: #f65358;
 }
 
