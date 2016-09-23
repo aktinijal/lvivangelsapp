@@ -562,6 +562,13 @@ footer {
     color: #fff;
 }
 
+.map-links a{
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+}
 .contact .form {
     text-align: justify;
 }
