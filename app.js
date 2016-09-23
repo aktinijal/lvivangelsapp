@@ -1,5 +1,6 @@
 angular.module('myApp', [
-	'ngRoute'
+	'ngRoute',
+    'slick'
 ])
 
 .config(function ($routeProvider) {
@@ -28,3 +29,14 @@ angular.module('myApp', [
 
     // $locationProvider.html5Mode(true);
 });
+
+// .directive('slickSlider', function($timeout){
+//     return {
+//     restrict: 'A',
+//     link: function(scope,element,attrs) {
+//         $timeout(function() {
+//             $(element).slick(scope.$eval(attrs.slickSlider));
+//             });
+//         }
+//     }
+// }); 

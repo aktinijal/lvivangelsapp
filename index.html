@@ -11,17 +11,28 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
         <link type="text/css" rel="stylesheet" href="css/reset.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"> -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script> -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/slick-carousel/slick/slick.js"></script>
+        <script src="bower_components/angular-slick/dist/slick.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-        <!-- <script src="script.js"></script> -->
+
         <script src="app.js"></script>
         <script src="controllers/mainController.js"></script>
         <script src="controllers/eventsController.js"></script>
         <script src="controllers/federationController.js"></script>
         <script src="controllers/galleryController.js"></script>
         <script src="controllers/contactController.js"></script>
+
+        
+
     </head>
 
     <body ng-controller="mainCtrl">
@@ -45,11 +56,11 @@
                 <a href="#" id="touch-menu">Меню</a>
 
                 <ul class="site-nav right">
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="/#events">Події</a></li>
-                    <li><a href="/#federation">Федерація</a></li>
-                    <li><a href="/#gallery">Фотогалерея</a></li>
-                    <li class="last"><a href="/#contact">Контакти</a></li>
+                    <li><a href="#" class="transition">Головна</a></li>
+                    <li><a href="/#events" class="transition">Події</a></li>
+                    <li><a href="/#federation" class="transition">Федерація</a></li>
+                    <li><a href="/#gallery" class="transition">Фотогалерея</a></li>
+                    <li class="last"><a href="/#contact" class="transition">Контакти</a></li>
                 </ul>
             </div>
         </header>

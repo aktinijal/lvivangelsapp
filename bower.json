@@ -1,0 +1,17 @@
+{
+  "name": "lvivangels.fuf",
+  "homepage": "https://github.com/aktinijal/lvivangelsapp",
+  "authors": [
+    "Kate Grytsenko <aktinijal@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
