@@ -1,36 +1,30 @@
-    <div id="news" class="news">
-        <div class="wrapper">
-
-            <div data-ng-controller="eventsController" class="row">
-                <h1 class="title">Події</h1>
-
-                <div ng-repeat="newsItem in newsItems" class="news-item col-md-12">
-                    <div value="Toggle First = {{box1}}" ng-click="box1=!box1" class="news-head clearfix">
-                        <span class="date">{{newsItem.date}}<br>{{newsItem.year}}</span>
-                        <div class="new">
-                            <h2>{{newsItem.title}}</h2><br>
-                            <span class="location">{{newsItem.location}}</span>
-                        </div>
-
-                        <img class="first-img" src="img/bottom.png" alt="">
+<div id="news" class="news">
+    <div class="wrapper">
+        <div data-ng-controller="eventsController" class="row">
+            <h1 class="title">Події</h1>
+            <div ng-repeat="newsItem in newsItems" class="news-item col-md-12">
+                <div value="Toggle First = {{box1}}" ng-click="box1=!box1" class="news-head clearfix">
+                    <span class="date">{{newsItem.date}}<br>{{newsItem.year}}</span>
+                    <div class="new">
+                        <h2>{{newsItem.title}}</h2><br>
+                        <span class="location">{{newsItem.location}}</span>
                     </div>
-                    <div data-slide-toggle="box1" data-slide-toggle-duration="500" class="news-open clearfix">
-                        <div class="row">
-                            <div class="news-img col-md-6 col-sm-6">
-                                <img ng-src="{{newsItem.src}}" alt="">
-                            </div>
-                            <div class="news-content col-md-6 col-sm-6">
-                                <p>{{newsItem.description1}}</p>
-                                <p>{{newsItem.description2}}</p>
-                                <p>{{newsItem.description3}}</p>
-                                <p>{{newsItem.description4}}</p>
-                            </div>
+                    <img class="first-img" src="img/bottom.png" alt="">
+                </div>
+                <div data-slide-toggle="box1" data-slide-toggle-duration="500" class="news-open clearfix">
+                    <div class="row">
+                        <div class="news-img col-md-6 col-sm-6">
+                            <img ng-src="{{newsItem.src}}" alt="">
+                        </div>
+                        <div class="news-content col-md-6 col-sm-6">
+                            <p>{{newsItem.description1}}</p>
+                            <p>{{newsItem.description2}}</p>
+                            <p>{{newsItem.description3}}</p>
+                            <p>{{newsItem.description4}}</p>
                         </div>
                     </div>
                 </div>
-
-
+            </div>
         </div>
     </div>
 </div>
-<!--end of #news-->
