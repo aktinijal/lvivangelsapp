@@ -36,6 +36,12 @@ header {
     z-index: 3;
 }
 
+.min .header-contacts {
+    top: -30px;
+}
+.min header {
+    top: 0;
+}
 .site-nav ul {
     width: 60%;
 }
