@@ -1,11 +1,11 @@
     <div id="news" class="news">
         <div class="wrapper">
 
-            <div class="row">
+            <div data-ng-controller="eventsController" class="row">
                 <h1 class="title">Події</h1>
 
                 <div class="news-item col-md-12">
-                    <div class="news-head clearfix">
+                    <div value="Toggle First = {{box1}}" ng-click="box1=!box1" class="news-head clearfix">
                         <span class="date">14-15 травня <br>2016 р.</span>
                         <div class="new">
                             <h2>Чемпіонат України серед кадетів та Всеукраїнський турнір "Весна янголів"</h2><br>
@@ -14,7 +14,7 @@
 
                         <img class="first-img" src="img/bottom.png" alt="">
                     </div>
-                    <div class="news-open clearfix">
+                    <div data-slide-toggle="box1" data-slide-toggle-duration="500" class="news-open clearfix">
                         <div class="row">
                             <div class="news-img col-md-6 col-sm-6">
                                 <img src="img/angels-spring2016.jpg" alt="">
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="news-item col-md-12">
-                    <div class="news-head clearfix">
+                    <div value="Toggle Second = {{box2}}" ng-click="box2=!box2" class="news-head clearfix">
                         <span class="date">4-6 березня <br>2016 р.</span>
                         <div class="new">
                             <h2>Чемпіонат України</h2><br>
@@ -41,7 +41,7 @@
 
                         <img class="first-img" src="img/bottom.png" alt="">
                     </div>
-                    <div class="news-open clearfix">
+                    <div data-slide-toggle="box2" data-slide-toggle-duration="500" class="news-open clearfix">
                         <div class="row">
 
                             <div class="news-img col-md-6 col-sm-6">
@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="news-item col-md-12">
-                    <div class="news-head clearfix">
+                    <div value="Toggle third = {{box3}}" ng-click="box3=!box3" class="news-head clearfix">
                         <span class="date">27-28 лютого <br>2015 р.</span>
                         <div class="new">
                             <h2>ECU семінар</h2><br>
@@ -70,7 +70,7 @@
                         </div>
                         <img class="first-img" src="img/bottom.png" alt="">
                     </div>
-                    <div class="news-open clearfix">
+                    <div data-slide-toggle="box3" data-slide-toggle-duration="500" class="news-open clearfix">
                         <div class="row">
 
                             <div class="news-img col-md-6 col-sm-6">

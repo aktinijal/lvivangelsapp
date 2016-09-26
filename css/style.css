@@ -320,7 +320,9 @@ header {
     padding: 20px 0 10px 0;
     border-bottom: 1px solid #e5e5e5;
 }
-
+.open-new {
+    display: block;
+}
 .news-content p {
     padding-right: 15px;
     text-align: justify;
