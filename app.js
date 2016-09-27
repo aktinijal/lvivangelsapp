@@ -66,3 +66,12 @@ app.directive('slideToggle', function() {
     }
   };  
 });
+app.controller('navigationController', function($scope) {
+    $scope.a = [false, false, false, false, false, false];
+    $scope.navClick = function(navLink) {
+        for(i = 0; i < 6; i++) {
+        $scope.a[i] = false;
+        }
+        $scope.a[navLink] = true;
+    }
+});
