@@ -1,6 +1,7 @@
 var app = angular.module('myApp', [
 	'ngRoute',
-    'slick'
+    'slick',
+    'jtt_angular_xgallerify'
 ])
 
 app.config(function ($routeProvider) {
