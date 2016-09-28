@@ -67,11 +67,11 @@ app.directive('slideToggle', function() {
   };  
 });
 app.controller('navigationController', function($scope) {
-    $scope.a = [false, false, false, false, false, false];
+    $scope.a = [{}, {bool: false, nav: ''}, {bool: false, nav: ''}, {bool: false, nav: ''}, {bool: false, nav: ''}, {bool: false, nav: ''}];
     $scope.navClick = function(navLink) {
         for(i = 0; i < 6; i++) {
-        $scope.a[i] = false;
+            $scope.a[i].nav = '';
         }
-        $scope.a[navLink] = true;
+        $scope.a[navLink].nav = 'nav-link-focus';
     }
 });

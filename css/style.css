@@ -57,6 +57,7 @@ header {
 }
 
 .site-nav a {
+    position: relative;
     color: #fff;
     font-size: 14px;
     font-family: 'Roboto Bold Condensed', arial;
@@ -72,7 +73,17 @@ header {
 a.nav-link-focus {
     color: #f65358;
 }
-
+a.nav-link-focus:after,
+.site-nav a:hover:after{
+    content: ' ';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 3px;
+    background-color: #f65358;
+}
 #touch-menu {
     display: none;
     color: #f65358;

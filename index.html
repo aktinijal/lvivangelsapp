@@ -54,11 +54,11 @@
                 <a href="#" id="touch-menu">Меню</a>
 
                 <ul ng-controller="navigationController" class="site-nav right">
-                    <li><a href="/#/" ng-click="navClick(1)" ng-class="{{a[1]}} == true ? 'nav-link-focus' : ''" class="transition">Головна</a></li>
-                    <li><a href="/#events" ng-click="navClick(2)" ng-class="{{a[2]}} ? 'nav-link-focus' : ''" class="transition">Події</a></li>
-                    <li><a href="/#federation" ng-click="navClick(3)" ng-class="{{a[3]}} ? 'nav-link-focus' : ''" class="transition">Федерація</a></li>
-                    <li><a href="/#gallery" ng-click="navClick(4)" ng-class="{{a[4]}} ? 'nav-link-focus' : ''" class="transition">Фотогалерея</a></li>
-                    <li class="last"><a href="/#contact" ng-click="navClick(5)" ng-class="{{a[5]}} ? 'nav-link-focus' : ''" class="transition">Контакти</a></li>
+                    <li><a href="/#/" ng-click="navClick(1)" ng-class="" class="transition {{a[1].nav}}">Головна</a></li>
+                    <li><a href="/#events" ng-click="navClick(2)"  class="transition {{a[2].nav}}">Події</a></li>
+                    <li><a href="/#federation" ng-click="navClick(3)"  class="transition {{a[3].nav}}">Федерація</a></li>
+                    <li><a href="/#gallery" ng-click="navClick(4)"  class="transition {{a[4].nav}}">Фотогалерея</a></li>
+                    <li class="last"><a href="/#contact" ng-click="navClick(5)" class="transition {{a[5].nav}}">Контакти</a></li>
                 </ul>
             </div>
         </header>
